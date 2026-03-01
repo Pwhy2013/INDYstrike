@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: #87ceeb; /* sky blue */
+}
+
+#game {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: #a0ffa0; /* ground background */
+}
+
+#floor {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #654321; /* brown floor */
+}
+
+#player {
+    position: absolute;
+    bottom: 50px; /* on top of the floor */
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
